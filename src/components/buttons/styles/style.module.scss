@@ -1,0 +1,55 @@
+.link {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  padding: 1rem 3rem;
+  background: var(--color-primary);
+  color: var(--color-white);
+  border-radius: 1rem;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 3rem;
+  background: var(--color-primary);
+  color: var(--color-white);
+  border-radius: 1rem;
+  cursor: pointer;
+
+  &:hover {
+    background: #3f3255;
+  }
+
+  &.disabled {
+    cursor: not-allowed;
+    background: var(--color-disabled);
+  }
+
+  &.loading {
+    cursor: not-allowed;
+    background: var(--color-disabled);
+
+    span {
+      display: block;
+      width: 1.5rem;
+      height: 1.5rem;
+      border-radius: 50%;
+      border: 0.2rem solid transparent;
+      border-top-color: var(--color-white);
+      border-left-color: var(--color-white);
+      border-bottom-color: var(--color-white);
+      animation: loading 1s linear forwards infinite;
+
+      @keyframes loading {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+    }
+  }
+}

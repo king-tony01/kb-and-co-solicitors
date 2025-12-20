@@ -1,0 +1,32 @@
+.input {
+  position: relative;
+}
+.input label {
+  display: block;
+  font-size: 1.1rem;
+  padding: 0.5rem 0;
+}
+.input input {
+  border-radius: 10px;
+  border: 1px solid #dfdfdf;
+  background: #f7f7f7;
+  display: block;
+  padding: 1rem;
+  width: 100%;
+}
+.input input:focus {
+  border-color: var(--color-primary);
+}
+.input textarea {
+  border-radius: 10px;
+  border: 1px solid #dfdfdf;
+  background: #f7f7f7;
+  display: block;
+  padding: 1rem;
+  width: 100%;
+  min-height: 10rem;
+  resize: none;
+}
+.input textarea:focus {
+  border-color: var(--color-primary);
+}/*# sourceMappingURL=style.module.css.map */

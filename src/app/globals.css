@@ -1,25 +1,29 @@
 :root {
-  --background: #ffffff;
+  --background: #f9f9f9;
   --foreground: #171717;
+  --color-primary: #17124A;
+  --color-white: #ffffff;
+  --color-text: #464158;
+  --color-black: #000000;
+  --color-secondary: #B48CBE;
+  --color-disabled: #434343;
 }
-
+/* 
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
   }
+} */
+
+html{
+  font-size: 80%;
 }
 
-html,
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
-}
 
 body {
-  color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Poppins", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -28,15 +32,18 @@ body {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: "Poppins", sans-serif;
+  outline: none;
+  border: none;
 }
 
 a {
   color: inherit;
   text-decoration: none;
 }
-
+/* 
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
   }
-}
+} */

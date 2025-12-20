@@ -1,0 +1,29 @@
+.consultation {
+  width: 100%;
+  position: relative;
+  height: 100vh;
+}
+.consultation .image {
+  display: block;
+  width: 100%;
+  height: unset;
+}
+@media screen and (min-width: 600px) {
+  .consultation {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    padding: 5rem;
+  }
+  .consultation .image {
+    width: 70%;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 600px) {
+  .consultation {
+    margin: 3rem 0;
+    padding: 1rem;
+    height: 100%;
+  }
+}/*# sourceMappingURL=style.module.css.map */
