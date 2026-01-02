@@ -30,7 +30,7 @@ export default function Home() {
       </section>
       <Section
         title="About Us"
-        image="/about_image.svg"
+        image="/about_image.png"
         content={
           <p
             style={{
@@ -49,7 +49,7 @@ export default function Home() {
       <Services />
       <Section
         title="Why Choose Us"
-        image="/why_choose_us_image.svg"
+        image="/why_choose_us_image.png"
         content={
           <ul>
             {[
@@ -77,7 +77,7 @@ export default function Home() {
       />
       <Section
         title="Complaints Procedure"
-        image="/complaints_image.svg"
+        image="/complaints_image.png"
         content={
           <div>
             <p
@@ -123,7 +123,7 @@ export default function Home() {
       />
       <Section
         title="Pricing & Transparency"
-        image="/pricing_image.svg"
+        image="/pricing_image.png"
         content={
           <div>
             <p>
@@ -137,7 +137,7 @@ export default function Home() {
       />
       <Section
         title="Terms of Business"
-        image="/terms_image.svg"
+        image="/terms_image.png"
         content={
           <div>
             <p>
@@ -153,7 +153,7 @@ export default function Home() {
       />
       <Section
         title="Privacy Policy"
-        image="/privacy_image.svg"
+        image="/privacy_image.png"
         content={
           <div>
             <p>

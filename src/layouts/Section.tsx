@@ -13,13 +13,17 @@ function Section({
 }) {
   return (
     <section className={styles.section}>
-      <Image
-        width={100}
-        height={100}
-        src={image}
-        alt={title + " Illustration"}
-        className={styles.section_image}
-      />
+      <div className={styles.card_image}>
+        <Image
+          width={1000}
+          height={700}
+          src={image}
+          alt={title + " Illustration"}
+          className={styles.section_image}
+          quality={100}
+          priority
+        />
+      </div>
       <div className={styles.section_right}>
         <h2>{title}</h2>
         <div>{content}</div>
