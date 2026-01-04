@@ -156,6 +156,18 @@
   transform: rotate(-45deg);
   animation: moveRight 1.5s infinite alternate;
 }
+@media screen and (max-width: 590px) {
+  .section .card_image::before {
+    left: -95%;
+    height: 150px;
+    transform: rotate(-45deg);
+  }
+  .section .card_image::after {
+    right: -95%;
+    height: 150px;
+    transform: rotate(-45deg);
+  }
+}
 @keyframes moveRight {
   from {
     transform: translateX(0) rotate(-45deg);
